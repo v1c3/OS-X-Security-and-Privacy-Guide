@@ -492,6 +492,9 @@ Have a look through the commented-out options. Here are a few recommended settin
     log-dhcp
     log-queries
     log-facility=/var/log/dnsmasq.log
+    
+    # Only listen for requests on this mac
+    listen-address=127.0.0.1
 
 Install and start the program
 
